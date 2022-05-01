@@ -1,0 +1,30 @@
+########################################
+#   Plugin originally written by Nah   #
+#        Services hosted by Nah        #
+#     Ported to Velocity by Maartin    #
+########################################
+
+# Basic configuration, leave as or ask nah#2134 on Discord for help.
+[cus]
+	url = "https://antivpn.k55.se:5002/api/lookup/"
+	token = "12341234"
+
+[kick]
+    # Should the player be kicked if they're using a proxy?
+    enabled = true
+    # The kick message
+	message = "We do not allow the usage of proxies on our server."
+
+[command]
+	# Should a command be executed if a player joins while using a proxy?
+	enabled = false
+	# The command. %s will be replaced by the player's name.
+	command = "kick %s We do not allow the usage of proxies on our server."
+
+[telegram]
+    # Should a telegram message be sent when a proxy has been detected?
+	enabled = false
+	token = "SOME-TOKEN"
+	chat-id = "SOME-CHAT-ID"
+	# The message. %s will be replaced by the player's name.
+	message = "%s connected using a proxy and was therefore kicked."
