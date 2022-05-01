@@ -1,1 +1,0 @@
-{"id":"antivpn","name":"AntiVPN","version":"3.4","description":"Verifies that users are not utilizing VPN when connecting to the server","authors":["1ssh","Maartin"],"dependencies":[],"main":"se.k55.antivpn.AntiVPN"}
