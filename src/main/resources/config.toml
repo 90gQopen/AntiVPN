@@ -7,7 +7,6 @@
 # Basic configuration, leave as is or ask nah#2134 on Discord for help.
 [cus]
 	url = "https://antivpn.k55.se:5002/api/lookup/"
-	token = "12341234"
 
 [kick]
     # Should the player be kicked if they're using a proxy?

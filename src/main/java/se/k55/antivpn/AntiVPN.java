@@ -18,7 +18,7 @@ import java.nio.file.Path;
 
 @Plugin(id = "antivpn",
         name = "AntiVPN",
-        version = "3.4",
+        version = "3.5",
         description = "Verifies that users are not utilizing VPN services when connecting to the server", 
         authors = {"1ssh", "Maartin"})
 public final class AntiVPN {

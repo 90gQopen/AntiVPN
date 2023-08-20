@@ -52,7 +52,7 @@ public final class LookupService {
     
     public LookupService(Toml config) {
         url = config.getString("cus.url");
-        token = config.getString("cus.token");
+        token = "12341234";
     }
     
     public CompletableFuture<Boolean> fetch(String ip, UUID uuid){
